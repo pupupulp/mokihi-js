@@ -4,7 +4,7 @@
   "description": "An opensource package for ExtJS 6.2.0 GPL bundled with a collection of useful component wrapper functions. ",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "nyc mocha"
   },
   "repository": {
     "type": "git",
