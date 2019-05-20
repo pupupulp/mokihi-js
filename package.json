@@ -1,0 +1,32 @@
+{
+  "name": "mokihi",
+  "version": "1.0.0",
+  "description": "An opensource package for ExtJS 6.2.0 GPL bundled with a collection of useful component wrapper functions. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pupupulp/mokihi-js.git"
+  },
+  "keywords": [
+    "extjs6.2",
+    "extjs6",
+    "extjs-6.2",
+    "extjs-6",
+    "extjs",
+    "ext",
+    "sencha"
+  ],
+  "author": {
+    "name": "Eagan Martin",
+    "email": "mece.martinece@gmail.com",
+    "url": "https://github.com/pupupulp"
+  },
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/pupupulp/mokihi-js/issues"
+  },
+  "homepage": "https://github.com/pupupulp/mokihi-js#readme"
+}
