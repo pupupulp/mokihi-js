@@ -1,7 +1,7 @@
 const asset = require('chai').assert;
 const expect = require('chai').expect;
 const should = require('chai').should();
-const Mokihi = require('../index').MokihiTest;
+const Mokihi = require('../index').test.core;
 
 
 describe('Mokihi', () => {

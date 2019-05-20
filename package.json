@@ -1,7 +1,7 @@
 {
   "name": "mokihi-js",
   "version": "1.0.0",
-  "description": "An opensource package for ExtJS 6.2.0 GPL bundled with a collection of useful component wrapper functions. ",
+  "description": "An opensource package for ExtJS 6.2.0 GPL bundled with a collection of useful component wrapper functions.",
   "main": "index.js",
   "scripts": {
     "test": "nyc mocha"
