@@ -31,5 +31,8 @@
   "homepage": "https://github.com/pupupulp/mokihi-js#readme",
   "dependencies": {
     "stringify-object": "^3.3.0"
+  },
+  "devDependencies": {
+    "mocha": "^6.1.4"
   }
 }
