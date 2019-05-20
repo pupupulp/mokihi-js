@@ -78,3 +78,27 @@ app.listen(3000);
 ## Documentation
 
 comming soon..
+
+## About
+
+### Contributing
+
+Pull requests and stars are always welcome. For bugs and feature requests, please [create an issue](https://github.com/pupupulp/mokihi-js/issues/new).
+
+### Related Projects
+
+You might want to checkout these projects:
+
+- [NchikotaJS](https://github.com/pupupulp/nchikota-js) - An opensource tech stack composed of ExpressJS, NodeJS, ExtJS.
+- [PasserelleJS](https://github.com/pupupulp/passerelle-js) - An opensource API gateway built with ExpressJS.
+- [KonyvtarJS](https://github.com/pupupulp/konyvtar-js) - An opensource library/package of code wrappers for ExtJS 6.2.0 GPL.
+
+### Author
+
+**Eagan Martin**
+- [Github](https://github.com/pupupulp)
+- [LinkedIn]()
+
+### License
+
+Copyright © 2019, [Eagan Martin](https://pupupulp.github.io/). Release under the [GPL-3.0 License](https://github.com/pupupulp/mokihi-js/blob/master/LICENSE)
