@@ -28,12 +28,10 @@ const MokihiSetup = {
             const fontawesomeCss = fs.readFileSync(fontawesomePath, 'utf8');
 
             const css = `
-                <style>
-                    ${themeCss}
-                    ${chartsCss}
-                    ${uxCss}
-                    ${fontawesomeCss}
-                </style>
+                ${themeCss}
+                ${chartsCss}
+                ${uxCss}
+                ${fontawesomeCss}
             `;
 
             return css;
@@ -50,12 +48,10 @@ const MokihiSetup = {
             const uxScript = fs.readFileSync(uxPath, 'utf8');
 
             const script = `
-                <script type="text/javascript">
-                    ${extjsScript}
-                    ${themeScript}
-                    ${chartsScript}
-                    ${uxScript}
-                </script>
+                ${extjsScript}
+                ${themeScript}
+                ${chartsScript}
+                ${uxScript}
             `;
 
             return script;
