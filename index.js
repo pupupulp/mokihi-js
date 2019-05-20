@@ -63,6 +63,9 @@ const MokihiSetup = {
     }
 }
 
-console.log(MokihiSetup.extjs.loadCss());
-console.log(MokihiSetup.extjs.loadScript());
+module.exports.MokihiSetupTest = MokihiSetup;
+module.exports.MokihiSetup = stringifyObject(MokihiSetup);
+
+// console.log(MokihiSetup.extjs.loadCss());
+// console.log(MokihiSetup.extjs.loadScript());
 
