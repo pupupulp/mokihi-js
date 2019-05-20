@@ -28,5 +28,8 @@
   "bugs": {
     "url": "https://github.com/pupupulp/mokihi-js/issues"
   },
-  "homepage": "https://github.com/pupupulp/mokihi-js#readme"
+  "homepage": "https://github.com/pupupulp/mokihi-js#readme",
+  "dependencies": {
+    "stringify-object": "^3.3.0"
+  }
 }
