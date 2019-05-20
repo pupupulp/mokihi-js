@@ -62,3 +62,9 @@ const MokihiSetup = {
 module.exports.MokihiSetupTest = MokihiSetup;
 module.exports.MokihiSetup = stringifyObject(MokihiSetup);
 
+const Mokihi = {
+    supportedExtJs: '6.2.0'
+}
+
+module.exports.MokihiTest = Mokihi;
+module.exports.Mokihi = stringifyObject(Mokihi);
