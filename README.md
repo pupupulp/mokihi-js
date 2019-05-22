@@ -15,6 +15,11 @@ MōkihiJS
 
 An opensource package for ExtJS 6.2.0 GPL bundled with a collection of useful component wrapper functions.
 
+This is the continuation of [KonyvtarJS](https://github.com/pupupulp/konyvtar-js), bundled together with
+ExtJS 6.2.0 GPL instead of having it as another external lib, this package aims to provide both ExtJS 6.2.0 GPL
+and functionalities of [KonyvtarJS](https://github.com/pupupulp/konyvtar-js) as a single package for easy setup
+and ease of use.
+
 ## Quickstart
 
 ### Installation
