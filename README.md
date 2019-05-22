@@ -77,7 +77,149 @@ app.listen(3000);
 
 ## Documentation
 
-comming soon..
+### Table of Contents
+
+- [Component](#component)
+- [Ajax](#ajax)
+
+### Features
+
+#### Component
+
+- **query**
+
+```javascript
+/**
+ * * Sample Usage:
+ *
+ * * @View
+ * * {
+ * *    xtype: 'button',
+ * *    reference: 'sample-button'
+ * * }
+ *
+ * * @Controller
+ * * Mokihi.component.query('button[reference = sample-button]');
+ *
+ * @param {string} queryString
+ */
+Mokihi.component.query(queryString);
+```
+
+- **getByReference**
+
+```javascript
+/**
+ * * Sample Usage:
+ *
+ * * @View
+ * * {
+ * *    xtype: 'button',
+ * *    reference: 'sample-button'
+ * * }
+ *
+ * * @Controller
+ * * Mokihi.component.getByReference('button', 'sample-button');
+ *
+ * @param {string} component
+ * @param {string} reference
+ */
+Mokihi.component.getByReference(component, reference);
+```
+
+#### Ajax
+
+- **request**
+
+```javascript
+/**
+ * * Sample Usage:
+ *
+ * * @Controller
+ * * Mokihi.ajax.request('/login', 'POST', { user: john, pass: doe }, function (){}, function (){}, false);
+ *
+ * @param {string} url
+ * @param {string} method
+ * @param {object} params
+ * @param {function} sucessCallback
+ * @param {function} failureCallback
+ * @param {boolean} async
+ */
+Mokihi.ajax.request(url, method, params, sucessCallback, failureCallback, async);
+```
+
+- **get**
+
+```javascript
+/**
+ * * Sample Usage:
+ *
+ * * @Controller
+ * * Mokihi.ajax.get('/login', { user: john, pass: doe }, function (){}, function (){}, false);
+ *
+ * @param {string} url
+ * @param {object} params
+ * @param {function} sucessCallback
+ * @param {function} failureCallback
+ * @param {boolean} async
+ */
+Mokihi.ajax.get(url, params, sucessCallback, failureCallback, async);
+```
+
+- **post**
+
+```javascript
+/**
+ * * Sample Usage:
+ *
+ * * @Controller
+ * * Mokihi.ajax.post('/login', { user: john, pass: doe }, function (){}, function (){}, false);
+ *
+ * @param {string} url
+ * @param {object} params
+ * @param {function} sucessCallback
+ * @param {function} failureCallback
+ * @param {boolean} async
+ */
+Mokihi.ajax.post(url, params, sucessCallback, failureCallback, async);
+```
+
+- **put**
+
+```javascript
+/**
+ * * Sample Usage:
+ *
+ * * @Controller
+ * * Mokihi.ajax.put('/login', { user: john, pass: doe }, function (){}, function (){}, false);
+ *
+ * @param {string} url
+ * @param {object} params
+ * @param {function} sucessCallback
+ * @param {function} failureCallback
+ * @param {boolean} async
+ */
+Mokihi.ajax.put(url, params, sucessCallback, failureCallback, async);
+```
+
+- **delete**
+
+```javascript
+/**
+ * * Sample Usage:
+ *
+ * * @Controller
+ * * Mokihi.ajax.delete('/login', { user: john, pass: doe }, function (){}, function (){}, false);
+ *
+ * @param {string} url
+ * @param {object} params
+ * @param {function} sucessCallback
+ * @param {function} failureCallback
+ * @param {boolean} async
+ */
+Mokihi.ajax.delete(url, params, sucessCallback, failureCallback, async);
+```
+
 
 ## About
 
