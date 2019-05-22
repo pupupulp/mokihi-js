@@ -96,6 +96,7 @@ feel free to make a contribution instead.
 - [Ajax](#ajax)
 - [Url](#url)
 - [Button](#button)
+- [Store](#store)
 
 ### Features
 
@@ -313,7 +314,61 @@ Mokihi.button.disable(reference);
 Mokihi.button.enable(reference);
 ```
 
+#### Store
 
+- **create**
+
+```javascript
+/**
+ * * Sample Usage:
+ *
+ * * @Controller
+ * * Mokihi.store.create('/users', { active: true }, grid, true, 25);
+ *
+ * @param {string} url
+ * @param {object} extraParams
+ * @param {string} component
+ * @param {boolean} autoLoad
+ * @param {number} pageSize
+ */
+Mokihi.store.create(url, extraParams, component, autoLoad, pageSize);
+```
+
+- **tree**
+
+```javascript
+/**
+ * * Sample Usage:
+ *
+ * * @Controller
+ * * Mokihi.store.tree('/menus', { userId: 2 }, grid, true, true);
+ *
+ * @param {string} url
+ * @param {object} extraParams
+ * @param {string} component
+ * @param {boolean} autoLoad
+ * @param {boolean} folderSort
+ */
+Mokihi.store.tree(url, extraParams, component, autoLoad, folderSort);
+```
+
+- **local**
+
+```javascript
+/**
+ * * Sample Usage:
+ *
+ * * @Controller
+ * * var employees = [
+ * *    { name: 'John Doe' },
+ * *    { name: 'Jane Doe' }
+ * * ];
+ * * Mokihi.store.local(employees);
+ *
+ * @param {array} records
+ */
+Mokihi.store.local(records);
+```
 
 ## About
 
