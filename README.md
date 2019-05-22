@@ -81,6 +81,7 @@ app.listen(3000);
 
 - [Component](#component)
 - [Ajax](#ajax)
+- [Url](#url)
 
 ### Features
 
@@ -220,6 +221,21 @@ Mokihi.ajax.put(url, params, sucessCallback, failureCallback, async);
 Mokihi.ajax.delete(url, params, sucessCallback, failureCallback, async);
 ```
 
+#### Url
+
+- **convertObjectToQuery**
+
+```javascript
+/**
+ * * Sample Usage:
+ *
+ * * @Controller
+ * * Mokihi.url.convertObjectToQuery({ user: john, pass: doe });
+ *
+ * @param {object} params
+ */
+Mokihi.url.convertObjectToQuery(params);
+```
 
 ## About
 
