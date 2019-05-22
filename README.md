@@ -95,6 +95,7 @@ feel free to make a contribution instead.
 - [Component](#component)
 - [Ajax](#ajax)
 - [Url](#url)
+- [Button](#button)
 
 ### Features
 
@@ -249,6 +250,70 @@ Mokihi.ajax.delete(url, params, sucessCallback, failureCallback, async);
  */
 Mokihi.url.convertObjectToQuery(params);
 ```
+
+#### Button
+
+- **get**
+
+```javascript
+/**
+ * * Sample Usage:
+ *
+ * * @View
+ * * {
+ * *    xtype: 'button',
+ * *    reference: 'sample-button'
+ * * }
+ *
+ * * @Controller
+ * * Mokihi.button.getByReference('sample-button');
+ *
+ * @param {string} reference
+ */
+Mokihi.button.getByReference(reference);
+```
+
+- **disable**
+
+```javascript
+/**
+ * * Sample Usage:
+ *
+ * * @View
+ * * {
+ * *    xtype: 'button',
+ * *    reference: 'sample-button'
+ * * }
+ *
+ * * @Controller
+ * * Mokihi.button.disable('sample-button');
+ *
+ * @param {string} reference
+ */
+Mokihi.button.disable(reference);
+```
+
+- **enable**
+
+```javascript
+/**
+ * * Sample Usage:
+ *
+ * * @View
+ * * {
+ * *    xtype: 'button',
+ * *    reference: 'sample-button'
+ * * }
+ *
+ * * @Controller
+ * * Mokihi.button.enable('sample-button');
+ *
+ * @param {string} reference
+ */
+Mokihi.button.enable(reference);
+```
+
+
 
 ## About
 
