@@ -6,12 +6,12 @@
 const button = {
 	/**
 	 * * Sample Usage:
-	 * * Mokihi.button.getByReference('reference');
+	 * * Mokihi.button.get('reference');
 	 *
 	 * @param {string} reference
 	 */
-	getByReference: function (reference = '') {
-		return Mokihi.component.getByReference('button', reference);
+	get: function (reference = '') {
+		return Mokihi.component.reference('button', reference);
 	},
 	/**
 	 * * Sample Usage:
@@ -20,7 +20,7 @@ const button = {
 	 * @param {string} reference
 	 */
 	disable: function (reference = '') {
-		Mokihi.component.getByReference('button', reference).setDisabled(true);
+		Mokihi.component.reference('button', reference).setDisabled(true);
 	},
 	/**
 	 * * Sample Usage:
@@ -29,7 +29,7 @@ const button = {
 	 * @param {string} reference
 	 */
 	enable: function (reference = '') {
-		Mokihi.component.getByReference('button', reference).setDisabled(false);
+		Mokihi.component.reference('button', reference).setDisabled(false);
 	}
 };
 

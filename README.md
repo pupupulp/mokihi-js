@@ -135,12 +135,12 @@ Mokihi.component.query(queryString);
  * * }
  *
  * * @Controller
- * * Mokihi.component.getByReference('button', 'sample-button');
+ * * Mokihi.component.reference('button', 'sample-button');
  *
  * @param {string} component
  * @param {string} reference
  */
-Mokihi.component.getByReference(component, reference);
+Mokihi.component.reference(component, reference);
 ```
 
 #### Ajax
@@ -267,11 +267,11 @@ Mokihi.url.convertObjectToQuery(params);
  * * }
  *
  * * @Controller
- * * Mokihi.button.getByReference('sample-button');
+ * * Mokihi.button.get('sample-button');
  *
  * @param {string} reference
  */
-Mokihi.button.getByReference(reference);
+Mokihi.button.get(reference);
 ```
 
 - **disable**
@@ -368,6 +368,70 @@ Mokihi.store.tree(url, extraParams, component, autoLoad, folderSort);
  * @param {array} records
  */
 Mokihi.store.local(records);
+```
+
+#### Combobox
+
+- **get**
+
+```javascript
+/**
+ * * Sample Usage:
+ *
+ * * @View
+ * * {
+ * *    xtype: 'combobox',
+ * *    reference: 'sample-combobox'
+ * * }
+ *
+ * * @Controller
+ * * Mokihi.combobox.get('sample-combobox');
+ *
+ * @param {string} reference
+ */
+Mokihi.combobox.get(reference);
+```
+
+- **setup**
+
+```javascript
+/**
+ * * Sample Usage:
+ *
+ * * @View
+ * * {
+ * *    xtype: 'combobox',
+ * *    reference: 'sample-combobox'
+ * * }
+ *
+ * * @Controller
+ * * Mokihi.combobox.setup('sample-combobox', '/contries', { region: southeast });
+ *
+ * @param {string} reference
+ * @param {string} storeUrl
+ * @param {object} filters
+ */
+Mokihi.combobox.setup(reference, storeUrl, filters);
+```
+
+- **getRecordById**
+
+```javascript
+/**
+ *
+ * * @View
+ * * {
+ * *    xtype: 'combobox',
+ * *    reference: 'sample-combobox'
+ * * }
+ *
+ * * @Controller
+ * * Sample Usage: Mokihi.combobox.getRecordById('sample-combobox', 2);
+ *
+ * @param {string} reference
+ * @param {number} id
+ */
+Mokihi.combobox.getRecordById(reference, id);
 ```
 
 ## About

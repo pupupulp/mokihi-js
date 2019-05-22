@@ -11,12 +11,12 @@ const component = {
 	},
 	/**
 	 * * Sample Usage:
-	 * * Mokihi.component.getByReference('button', 'button-reference-value');
+	 * * Mokihi.component.reference('button', 'button-reference-value');
 	 *
 	 * @param {string} component
 	 * @param {string} reference
 	 */
-	getByReference: function (component = '', reference = '') {
+	reference: function (component = '', reference = '') {
 		if (!component || !reference) return undefined;
 		return Ext.ComponentQuery.query(`${component}[reference = ${reference}]`)[0];
 	}
