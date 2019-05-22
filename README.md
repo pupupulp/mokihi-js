@@ -122,7 +122,7 @@ feel free to make a contribution instead.
 Mokihi.component.query(queryString);
 ```
 
-- **getByReference**
+- **reference**
 
 ```javascript
 /**
