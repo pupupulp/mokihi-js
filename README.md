@@ -67,8 +67,8 @@ app.listen(3000);
 <!DOCTYPE html>
 <html>
 <head>
-    <style>${MokihiCss}</style>
-    <script type="text/javascript">${MokihiScript}</script>
+    <style> ${MokihiCss} </style>
+    <script type="text/javascript"> ${MokihiScript} </script>
     <script type="text/javascript"> var Mokihi = ${Mokihi}; </script>
 </head>
 <body>
@@ -77,6 +77,14 @@ app.listen(3000);
 ```
 
 ### Running Tests
+#### DISCLAIMER
+Available test cases are those that can be tested on the backend when calling Mokihi as an object,
+some functionalities dont have test cases since it is required to render a UI to load the ExtJS since
+it is a client side library and it does not support server side rendering.
+
+Hence this package may or may not contain any bug upon release, if you ever encountered a bug please 
+do report it immediately by [creating an issue](https://github.com/pupupulp/mokihi-js/issues/new), or 
+feel free to make a contribution instead.
 
 `$ npm test`
 
